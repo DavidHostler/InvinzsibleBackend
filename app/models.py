@@ -14,7 +14,6 @@ class Product(models.Model):
     
     class Meta:
         db_table = "product_details"
-#Auschwitz41
 
 class Order(models.Model):
     order_id = models.CharField(primary_key=True,max_length=15)
